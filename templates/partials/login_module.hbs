@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="/css/login_module.css" />
+<div id="login-box">
+    <div class="unauthenticated">
+    <div id="type-selector">
+        <div class="type-login" onclick="findSelector(event,1);">
+            Login
+        </div>
+        <div class="type-reg" onclick="findSelector(event,0);">
+            Signup
+        </div>
+    </div>
+    
+        <form action=" " method="POST" class="login-form">
+            <div class="reg-name">
+            <label for="name">Name</label>
+            <br>
+            <input type="text" name="name" value=""/>
+            </div>
+            <div>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" value=""/>
+            </div>
+            <div class="reg-password">
+            <label for="password">Password</label> 
+            <br>
+            <input type="password" name="password" value="">
+            </div>
+            <a onclick="forgotPassword(event)">Forgot Password</a>
+            <div class="reg-submit">
+            <input type="submit" name="register" value="Register"/>
+            </div>
+            <div class="log-submit">
+            <input type="submit" name="login" value="Login" />
+            </div>
+        </form>
+        </div>
+        
+    <script src="/js/common_client.js"></script>
+    <script src="/js/login_module_client.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</div>

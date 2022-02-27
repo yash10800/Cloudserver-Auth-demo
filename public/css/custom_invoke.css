@@ -1,0 +1,103 @@
+.main-content-invoke{
+    display:flex;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    min-width: 90vw;
+    margin: 10px auto;
+    flex-direction: row;
+    border-radius: 5vh;
+}
+
+.main-content-editor{
+    flex-grow: 1;
+    margin: 1vh auto 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+    background-color: rgba(200, 230, 230, 1);
+    border-radius: 5vh;
+    color: black;
+}
+
+#main-content-code{
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 58vw;
+    max-height: 72vh;
+    flex-grow: 1;
+    margin: 1vh 1vw;
+    width: 58vw;
+    height: 72vh;
+    flex-grow: 1;
+    border-radius: 2vh;
+}
+
+.editor-options{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.compile-button{    
+    width: 10vw;
+    margin: auto 2vw 0.5vh 0vw;
+    border-radius: 2vw;
+    background-color: brown;
+    color: white;
+}
+
+.theme-button{    
+    width: 10vw;
+    margin: auto 2vw 0.5vh 0vw;
+    border-radius: 2vw;
+    background-color: black;
+    color: white;
+}
+
+.languages{
+    border-radius: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 0.5vh;
+}
+
+.editor-options span{
+    margin-right: 1vw;
+    margin-bottom: 0.5vh;
+    padding-bottom: 0.5vh;
+    font-weight: 600;
+}
+
+.main-content-io{
+    flex-grow: 1;
+    background-color: rgba(200, 230, 230, 1);
+    border-radius: 5vh;
+    margin: 1vh 1vw 1vh auto;
+    max-width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-input, .main-content-output{
+    flex-grow: 1;
+    background-color: inherit;
+    border-radius: 2vh;
+    margin: 1vh 1vw;
+    width: 23vw;
+    height: 0.5;
+}
+
+.main-content-input div, .main-content-output div{
+    width: 21vw;
+    height: 32vh;
+    margin: 1vh auto;
+}
+.main-content-input div textarea, .main-content-output div textarea{
+    width: inherit;
+    height: inherit;
+    background-color: rgb(30, 30, 30);
+    color: ivory;
+    overflow: auto;
+    resize: none;
+}
